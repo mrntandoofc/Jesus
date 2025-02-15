@@ -4,10 +4,10 @@ const fs = require('fs'),
       dotenv = fs.existsSync('config.env') ? require('dotenv').config({ path: '/.env' }) : undefined,
       convertToBool = (text, fault = 'true') => text === fault;
 
-global.caption = "*©2025 JESUS LOVES YOU🙏*"; // Input Yours custom...(Maintain font for Flow)
+global.caption = "*©²⁰²⁵ ᴶᵉˢᵘˢ ˡᵒᵛᵉˢ ʸᵒᵘ ❤️🔥*"; // Input Yours custom...(Maintain font for Flow)
 global.api = "https://api.giftedtech.web.id/api"; // DO NOT Change this...
 global.session = "https://pair.giftedtech.web.id"; // DO NOT Change this....
-global.footer = "*powered by Jesus❤️💯loves you*"; // Input Yours custom...(Maintain font for Flow)
+global.footer = "*©ᵖᵒʷᵉʳᵉᵈ ᵇʸ ᴶᵉˢᵘˢ ˡᵒᵛᵉˢ ʸᵒᵘ❤️🫡🔥*"; // Input Yours custom...(Maintain font for Flow)
 global.myDb = "https://giftedmd.giftedtech.web.id"; // DO NOT Change this...
 global.ytdl = "https://ytdl.giftedtech.web.id"; // You Can Change this...
 
@@ -15,7 +15,7 @@ global.ytdl = "https://ytdl.giftedtech.web.id"; // You Can Change this...
  
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "", // Add sess Id here espwcially when deploying on panels else use app.json and .env file...
-SUDO_NUMBERS: process.env.SUDO_NUMBERS || "", //Add multiple Numbers with Country Codes without (+) Separated by Comma...
+SUDO_NUMBERS: process.env.SUDO_NUMBERS || "+263711929024", //Add multiple Numbers with Country Codes without (+) Separated by Comma...
 ANTI_DELETE: process.env.ANTI_DELETE || false, // Make true to use Antidelete for Chats, Groups, Statuses & Channels
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 AUTO_LIKE_STATUS: process.env.AUTO_LIKE_STATUS || "true",
@@ -35,11 +35,11 @@ ANTIBAD: process.env.ANTIBAD || "false",
 BAD_WORDS: process.env.BAD_WORDS || "fuck, pussy, anus, idiot", // Add Yours Separated by Comma(will be deleted if ANTIBAD is set to true)
 ANTICALL_MSG: process.env.ANTICALL_MSG || "*_📞 Auto Call Reject Mode Active. 📵 No Calls Allowed!_*",
 AUTO_REACT: process.env.AUTO_REACT || "false",
-BOT_NAME: process.env.BOT_NAME || "JESUS-TO-NATIONS", // Input Yours custom...(Maintain font for Flow)
+BOT_NAME: process.env.BOT_NAME || "ᴶᵉˢᵘˢ ᵀᵒ ᴺᵃᵗⁱᵒⁿˢ🔥", // Input Yours custom...(Maintain font for Flow)
 BOT_PIC: process.env.BOT_PIC || "https://envs.sh/X9U.jpg", // You can Replace with yours...
 AUTO_AUDIO: process.env.AUTO_AUDIO || "false",
 AUTO_BIO: process.env.AUTO_BIO || "false",
-AUTO_BIO_QUOTE: process.env.AUTO_BIO_QUOTE || "Gifted creates things that creates other things",
+AUTO_BIO_QUOTE: process.env.AUTO_BIO_QUOTE || "ᴶᵉˢᵘˢ ᶜʰʳⁱˢᵗ ᵍⁱᵛᵉˢ ˡⁱᶠᵉ ᵗᵒ ᵃˡˡ ᵗʰⁱⁿᵍˢ ᵒⁿ ᵉᵃʳᵗʰ, ᵃⁿᵈ ᴴᵉ ⁱˢ ᵗʰᵉ ᴸᵒʳᵈ ᵒᶠ ˡᵒʳᵈˢ ᵃⁿᵈ ᴷⁱⁿᵍˢ ᵒᶠ ᵏⁱⁿᵍˢ🫡",
 CHAT_BOT: process.env.CHAT_BOT || "false", // Put value to true to enablle for all chats only or inbox to ebanle in pm chats only or groups to enable in groups only else false
 WELCOME: process.env.WELCOME || "false",
 GOODBYE: process.env.GOODBYE || "false",    
